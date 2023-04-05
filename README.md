@@ -1,5 +1,5 @@
 # examProgram
-This is a small web project aimed at helping a student keep track of their exam dates in a visual and user-friendly way. The project is built using HTML, CSS, and JavaScript.
+This is a small web project aimed at helping a student keep track of their exam dates in a visual and user-friendly way. The project is built using HTML, CSS.
 
 You can access the project files from this repository. Once downloaded, you can open the HTML file to view the exam schedule. The schedule is arranged chronologically, with each course's date and time clearly indicated. The background colors and table styles have been designed for easy readability.
 
