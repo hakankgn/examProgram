@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Title of the HTML page -->
     <title>Sınav Programı</title>
+    <!-- CSS styling within the HTML page -->
     <style>
+      /* Styling for table, table headers, and table data cells */
       table,
       th,
       td {
@@ -13,12 +16,15 @@
         font-size: 16px;
         font-family: Arial, sans-serif;
       }
+      /* Styling for table cells with the 'subject' class */
       .subject {
         background-color: #c6e2ff;
       }
+      /* Styling for table cells with the 'date' class */
       .date {
         background-color: #fff8dc;
       }
+      /* Styling for the container div */
       .container {
         display: flex;
         justify-content: center;
@@ -29,13 +35,18 @@
     </style>
   </head>
   <body>
+    <!-- Container div to center and align the table -->
     <div class="container">
+      <!-- Exam schedule table -->
       <table>
+        <!-- Table headers -->
         <tr>
           <th>Ders</th>
           <th>Tarih</th>
           <th>Saat</th>
         </tr>
+        <!-- Exam schedule table rows -->
+        <!-- Each row represents an exam with subject, date, and time -->
         <tr>
           <td class="subject">Dil ve Edebiyat Öğretimi 2</td>
           <td class="date">10.04.2023</td>
@@ -71,12 +82,13 @@
           <td class="date">13.04.2023</td>
           <td>16:00</td>
         </tr>
-        <tr>
-          <td class="subject">Karşılaştırmalı Eğitim</td>
-          <td class="date">17.04.2023</td>
-          <td>13:30</td>
-        </tr>
-      </table>
-    </div>
-  </body>
+      </tr>
+      <tr>
+        <td class="subject">Karşılaştırmalı Eğitim</td>
+        <td class="date">17.04.2023</td>
+        <td>13:30</td>
+      </tr>
+    </table>
+  </div>
+</body>
 </html>
